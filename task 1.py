@@ -1,7 +1,7 @@
 filename = 'sample.txt'
 
 try:
-    #read_me = open('sample.txt','r') you can use this as well but you have to close file with an ectra line of code 
+    #read_me = open('sample.txt','r') you can use this as well but you have to close file with an extra line of code 
     with open('sample.txt','r') as read_me:
         read1 = read_me.readlines()
         counter = 0
